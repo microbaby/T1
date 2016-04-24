@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+// code via http://www.yottaa.com/company/blog/application-optimization/using-jquery-and-github-to-create-a-bookmarklet/
+
 //Need to pull off the "#" from the string
 	var data = window.location.hash.substring(1);
 
