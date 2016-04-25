@@ -1,4 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {text-align:center;}
+p {text-align:center;}
+</style>
+<title>Tricks</title>
+</head>
+<body>
+
+<h1>From Patrick</h1>
 <P><a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://microbaby.github.io/T1/--.js';})();">➖➖</a> decrement</P>
 <P><a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://microbaby.github.io/T1/++.js';})();">➕➕</a> increment</P>
 <P><a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://microbaby.github.io/T1/tagmode.js';})();">Tag mode</a></P>
 <P><a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://microbaby.github.io/T1/hidem.js';})();">T1 buttons</a></P>
+
+</body>
+</html>
