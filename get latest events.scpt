@@ -1,6 +1,7 @@
 (*
 	"get latest events" - Script to scrape event data from BFA API events list by PATRICK RAFANAN 
 
+	v3.92	2016-06-01 temporary fix update date formatting; add cmd+up to last step
 	v3.91v	2016-05-17 changes pagedown to command+downarrow
 	v3.9v	2016-05-16 disable paste in gsheet; add pageNumber variable
 	v3.9	2016-05-10 more page down in gsheet; delete blank columns; copy data to gsheet
@@ -161,6 +162,7 @@ Thumb bfa ", "") of me*)
 	-- reformat date
 	set text of front document to replace_chars(text of front document, "201604", "2016-04-") of me
 	set text of front document to replace_chars(text of front document, "201605", "2016-05-") of me
+	set text of front document to replace_chars(text of front document, "201606", "2016-06-") of me
 	
 	-- find / replace
 	set text of front document to replace_chars(text of front document, "this", "that") of me
@@ -359,5 +361,7 @@ tell application "Google Chrome"
 		--keystroke "v" using {shift down, command down} -- paste & match style	
 		delay 1
 		key code 121 --PageDown
+				key code 126 using {command down} --upArrow to last filled row
+
 	end tell
 end tell
