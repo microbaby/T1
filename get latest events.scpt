@@ -27,7 +27,7 @@
 	
 	INSTRUCTIONS
 	Before using this script:
-	1. Log into BFA API: https://api.bfa.com/users/sign_in
+	1. Log into API
 	2. Set TextEdit preferences to plain text
 	
 *)
