@@ -19,12 +19,9 @@ $(".table th, .table td").css({"padding":"0"});
 /* table width */
 $(".table").css({"width":"0px"});
 
-/* table border */
-$(".table-bordered,.table-bordered th, .table-bordered td,.table th, .table td").css({"border":"3px solid red"});
-
-/*
-.table-bordered th, .table-bordered td
-border-left
-*/
+/* table borders */
+$(".table-bordered").css({"border":"3px solid red"});
+$(".table th, .table td").css({"border-top":"3px solid red"});
+$(".table-bordered th, .table-bordered td").css({"border-left":"3px solid red"});
 
 })();
