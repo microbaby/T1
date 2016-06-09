@@ -1,20 +1,11 @@
 javascript: (function() {
 /*
-"🙈bulk_tag_buttons (hide'm)"
-Cleans up thumbnails on bulk_tag keywording API
+"🔑T2 buttons"
+Cleans up thumbnails on keywording search API
 by PATRICK RAFANAN for BFA keywording
 
 v.91 06/09/2016 increase width of thumbnail area
-v.9s 06/04/2016 adapt for tag search pages
-v.9b 04/17/2016 reduce top padding; expand caption height; really hide filename
-v.904/15/2016 thumnail area widen, tags list narrow; add big buttons
-v.8 03/17/2016 reinstate rounded corner
-v.7 03/11/2016 hide thumbnail filename div
-v.6 01/19/2016 thumbnail & tags background & border styling
-v.5 12/15/2015 caption & border styling, hide caption filename
-v.4 11/03/2015 hides hero slider
-v.3 10/23/2015 hides icons on front end, extends tags field
-v.2 10/19/2015 hides filenames in captions
+
 */
 
 /* All siblings of div with specific class will be hidden */ 
