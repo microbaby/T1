@@ -22,6 +22,6 @@ $(".table").css({"width":"0px"});
 /* table borders */
 /*$(".table-bordered").css({"border":"3px solid purple"});*/
 /*$(".table th, .table td").css({"border-top":"3px solid green"});*/
-/*$(".table-bordered th, .table-bordered td").css({"border-left":"3px solid blue"});*/
+$(".table-bordered th, .table-bordered td").css({"border-left":"3px solid blue"});
 
 })();
