@@ -13,4 +13,7 @@ $(".user_chooser").css({"display":"none"});
 /* form margins */
 $("form").css({"margin":"0"});
 
+/* table padding */
+$(".table").css({"padding":"0"});
+
 })();
