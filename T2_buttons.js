@@ -3,6 +3,7 @@ javascript: (function() {
 "🙈bulk_tag_buttons (hide'm)"
 Cleans up thumbnails on bulk_tag keywording API
 by PATRICK RAFANAN for BFA keywording
+
 v.91 06/09/2016 increase width of thumbnail area
 v.9s 06/04/2016 adapt for tag search pages
 v.9b 04/17/2016 reduce top padding; expand caption height; really hide filename
@@ -30,7 +31,7 @@ $("body").css({"padding-top": "0px"});
 
 /* from api */
 $(".container").css({"margin-left": "30px"});
-$(".container").css({"width": "1220px"});
+$(".container").css({"width": "2000px"});
 /* $('.navbar').hide();$('#footer').hide();*/
 /* All div's with class as cat will be shown. */
 $('.photos-list').show();
@@ -97,4 +98,5 @@ $(".add-tag-link:active").css({"transform": "translateY(4px)"});
 /* SEARCH SUBMIT BUTTON */
 $("input[type=submit]").css({"-webkit-appearance": "none"});
 $('input[type=submit]').hide();
+
 })();
