@@ -20,6 +20,10 @@ $('.search-header').hide();
 $('.sidebar').hide();
 $("body").css({"padding-top": "0px"});
 
+/* centering */
+$("search_term_form").css({"margin": "0 auto"});
+$("search_term_form").css({"width": "50%"});
+
 /* from api */
 $(".container").css({"margin-left": "30px"});
 $(".container").css({"width": "2000px"});
