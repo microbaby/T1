@@ -24,6 +24,9 @@ $("body").css({"padding-top": "0px"});
 $("search_term_form").css({"margin": "0 auto"});
 $("search_term_form").css({"width": "50%"});
 
+/* page buttons */
+/*  display:inline; */
+
 /* from api */
 $(".container").css({"margin-left": "30px"});
 $(".container").css({"width": "2000px"});
