@@ -19,4 +19,7 @@ $(".table th, .table td").css({"padding":"0"});
 /* table width */
 $(".table").css({"width":"0px"});
 
+/* table border */
+$(".table-bordered").css({"border":"3px solid red"});
+
 })();
