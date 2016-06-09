@@ -16,4 +16,7 @@ $("form").css({"margin":"0"});
 /* table padding */
 $(".table th, .table td").css({"padding":"0"});
 
+/* table width */
+$(".table").css({"width":"0px"});
+
 })();
