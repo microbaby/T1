@@ -14,7 +14,7 @@ $(".user_chooser").css({"display":"none"});
 /*$("form").css({"margin":"0"});*/
 
   /* extend name field width */
-$("input").css({"width":"406px"});
+$("input").css({"width":"606px"});
   
   /* reduce spacing between name fields */
 $("input").css({"margin-bottom":"0px"});
