@@ -14,7 +14,7 @@ $(".user_chooser").css({"display":"none"});
 /*$("form").css({"margin":"0"});*/
 
 /* extend name field width */
-$("input, textarea, .uneditable-input").css({"width":"406px"});
+$("input").css({"width":"406px"});
   
   /* table padding */
 $(".table th, .table td").css({"padding":"0"});
