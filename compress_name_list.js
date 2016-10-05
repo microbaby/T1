@@ -23,7 +23,7 @@ $(".table th, .table td").css({"padding":"0"});
 $(".table").css({"width":"0px"});
 
 /* table borders */
-$(".table-bordered").css({"border":"3px solid green"});
+$(".table-bordered").css({"border":"1px solid green"});
 /*$(".table th, .table td").css({"border-top":"3px solid #00FF00"});*/
 /*$(".table-bordered th, .table-bordered td").css({"border-left":"3px solid blue"});*/
 
