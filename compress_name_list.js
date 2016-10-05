@@ -13,7 +13,10 @@ $(".user_chooser").css({"display":"none"});
 /* form margins */
 /*$("form").css({"margin":"0"});*/
 
-/* table padding */
+/* extend name field width */
+$("textarea").css({"width":"406px"});
+  
+  /* table padding */
 $(".table th, .table td").css({"padding":"0"});
 
 /* table width */
