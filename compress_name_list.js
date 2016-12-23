@@ -4,7 +4,8 @@ javascript:(function(){
 "compress 👥list"
 a bookmarklet to compress names on API list names page
 by PATRICK RAFANAN for BFA keywording
-v.b1 created 06.09.2016
+v.b2 12.22.2016 compressed form margins
+v.b1 06.09.2016 created
 */
 
   /* hide user column data */
