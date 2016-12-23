@@ -11,7 +11,7 @@ v.b1 created 06.09.2016
 $(".user_chooser").css({"display":"none"});
 
 /* form margins */
-$("form").css({"margin":"0 0 0 0"});
+$("table form").css({"margin":"0 0 0 0"});
 
   /* extend name field width */
 $("input").css({"width":"606px"});
